@@ -1,0 +1,18 @@
+.section-business {
+  color: var(--color-dark);
+}
+
+.section-business .sub-text,
+.section-business .title,
+.section-business .text-descripton {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.business-cases-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 18px;
+  padding-left: 0;
+}

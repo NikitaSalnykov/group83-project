@@ -1,11 +1,11 @@
 :root {
-  --primary-brand-color: #28A745;
+  --primary-brand-color: #28a745;
   --pressed-state-color: #289742;
   --text-color-light: #ffffff;
   --color-dark: #333333;
-  --main-background-color: #E5E5E5;
-  --socondary-background-color: #F4F4F4;
-  --article-color: #0284D0;
+  --main-background-color: #e5e5e5;
+  --socondary-background-color: #f4f4f4;
+  --article-color: #0284d0;
   --grey-color: #808080;
   --transition-duration: 250ms;
   --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -15,13 +15,10 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: calc(28/18);
+  line-height: calc(28 / 18);
   color: var(--text-color-light);
   margin: 0;
-
 }
-
-
 
 img {
   display: block;
@@ -43,13 +40,13 @@ img {
 .sub-text {
   font-weight: 400;
   font-size: 20px;
-  line-height: calc(33/20);
+  line-height: calc(33 / 20);
 }
 
 .title {
   font-weight: 300;
   font-size: 38px;
-  line-height: calc(48/38);
+  line-height: calc(48 / 38);
 }
 
 .text-descripton {
@@ -58,4 +55,17 @@ img {
 
 .section {
   padding-bottom: 80px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
