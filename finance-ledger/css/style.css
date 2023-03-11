@@ -79,41 +79,7 @@ padding-bottom: 80px;
 /* ===========================HERO================================= */
 
 /* ===========================Solutions================================= */
-.solutions-section {
 
-}
-.solutions-container{
-display: flex;
-background-color: var(--primary-brand-color);
-}
-
-.sultions-info-container{
-padding: 80px 64px 80px 20px;
-}
-
-
-.sultions-info-container .sub-text {
-  margin-bottom: 8px;
-}
-
-.button-link {
-  display: inline-block;
-  font-weight: 400;
-  border: 1px solid var(--text-color-light);
-  border-radius: 5px;
-  padding: 12px 34px;
-  transition: var(--transition-duration) var(--transition-timing-function), box-shadow var(--transition-duration) var(--transition-timing-function);;
-}
-
-.button-link:hover, .button-link:focus {
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
-background-color: rgba(46, 47, 66, 0.16);
-}
-
-.title-solutions {
-  color: var(--text-color-light);
-  margin-bottom: 24px;
-}
 
 
 /* ===========================BUSINESS CASES================================= */
